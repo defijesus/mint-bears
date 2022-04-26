@@ -1,6 +1,4 @@
-type ExampleEntity @entity {
+type Minter @entity {
   id: ID!
-  count: BigInt!
-  owner: Bytes! # address
-  approved: Bytes! # address
+  count: Int!
 }
